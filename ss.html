@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keyword" content="SixtySecond">
+        <title>抢六十秒-新年</title>
+        
+        <style>
+            @font-face {
+    font-family: DS;
+    src: url(../font/DS-DIGI.TTF);
+}
+body{
+    background-color: #D01837;
+    color: white;
+}
+h1.header-title{
+    text-align: center;
+    font-size: 8.125em;
+    
+}
+div.body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+div.action{
+    margin-bottom: 15%;
+}
+div.action a{
+    text-decoration: none;
+    color: rgb(197, 166, 166);
+    font-size: 8em;
+    
+}
+div.action a:hover{
+    text-decoration: underline;
+    color: green;
+}
+h1.header-title-less{
+    text-align: center;
+    font-size: 3.5em;
+    
+}
+
+
+
+h1#timeset{
+    font-family: DS,Arial, Helvetica, sans-serif;
+    font-size: 10em;
+    text-align: center;
+}
+
+h2.sta{
+    font-size: 32px;
+}
+
+button#go{
+    font-size: 38px; 
+    text-align: center;
+}
+span, button, input, select{font-size: 48px;}
+        </style>
+    </head>
+    <body>
+        <h1 class="header-title">抢六十秒-新年</h1>
+        <div class="body">
+            <form action="ss/action.html" method="GET">
+                <h1 class="header-title-less">选择模式！</h2>
+                <span>抢多少秒？</span><input name="sec" type="number" value="60" max="1000" min="20"><br /><br />
+                <span>难度？</span><select name="level" >
+                    <option value="500">一般</option>
+                    <option value="100">无人能敌</option>
+                    <option value="200">困难</option>
+                    
+                    <option value="1000">极易</option>
+                </select><br /><br />
+                <hr />
+                <button type="submit">开始游戏</button>
+            </form>
+        </div>
+    </body>
+
+
+</html>

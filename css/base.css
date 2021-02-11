@@ -1,0 +1,54 @@
+@font-face {
+    font-family: DS;
+    src: url(../font/DS-DIGI.TTF);
+}
+body{
+    background-color: #D01837;
+    color: white;
+}
+h1.header-title{
+    text-align: center;
+    font-size: 8.125em;
+    
+}
+div.body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+div.action{
+    margin-bottom: 15%;
+}
+div.action a{
+    text-decoration: none;
+    color: rgb(197, 166, 166);
+    font-size: 8em;
+    
+}
+div.action a:hover{
+    text-decoration: underline;
+    color: green;
+}
+h1.header-title-less{
+    text-align: center;
+    font-size: 3.5em;
+    
+}
+
+
+
+h1#timeset{
+    font-family: DS,Arial, Helvetica, sans-serif;
+    font-size: 10em;
+    text-align: center;
+}
+
+h2.sta{
+    font-size: 32px;
+}
+
+button#go{
+    font-size: 38px; 
+    text-align: center;
+}
